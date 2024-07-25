@@ -1,6 +1,6 @@
 # Cryoablation Probability Module
 
-This module calculates the probability and coverage of cryoablation treatment for tumors using 3D Slicer. The script performs various tasks including loading sample data, calculating iceball coverage, and generating probabilistic results for cryoablation.
+This 3D Slicer module calculates the probability and coverage of cryoablation treatment for tumors accounting for 1-3 needle deviations. The script performs various tasks including loading sample data, calculating iceball coverage, and generating probabilistic results for cryoablation.
 
 ## Overview
 
@@ -42,6 +42,7 @@ This repository contains a 3D Slicer scripted loadable module called `Probabilit
 - **Probability**: Initializes the module and registers sample data.
 - **ProbabilityWidget**: Manages the GUI and interactions.
 - **ProbabilityLogic**: Implements the core computation logic.
+- **quad**: Dictates the Gaussian Quadrature in three spatial directions
 
 ### Key Functions
 
