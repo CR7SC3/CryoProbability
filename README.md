@@ -10,7 +10,7 @@ This repository contains a 3D Slicer scripted loadable module called `Probabilit
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-repo-url.git
+    git clone https://github.com/CR7SC3/CryoProbability.git
     ```
 2. **Open 3D Slicer**.
 3. **Install the module**:
