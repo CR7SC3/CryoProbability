@@ -1,0 +1,54 @@
+# **Cryoablation Probability Module**
+
+This module is designed to calculate the probability of successful cryoablation based on various parameters and sample data sets. It provides a graphical user interface (GUI) for users to input their data and view the results.
+
+
+## **Requirements**
+
+
+
+* 3D Slicer
+* NumPy
+* SciPy
+* VTK
+
+
+## **Installation**
+
+
+
+1. Clone or download the repository to your local machine.
+2. Open 3D Slicer.
+3. Go to `Edit > Application Settings > Modules` and add the directory containing the module to the Additional Module Paths.
+4. Restart 3D Slicer.
+
+
+## **How to Use**
+
+
+
+1. Load the Cryoablation Probability module in 3D Slicer.
+2. Select the input volume and probe location from the provided sample data or load your own data.
+3. Set the error in plane and error depth values.
+4. Click the "Apply" button to run the probability calculation.
+5. View the results, including percentage coverage, probability, Dice coefficient score, target overlap, PPV score, and computation time.
+
+
+## **Sample Data**
+
+The module comes with sample data sets to help users get started quickly. The data sets are registered in the Sample Data module and can be accessed directly from the GUI.
+
+
+## **Acknowledgements**
+
+This module was developed by Jean-Christophe Fillion-Robin (Kitware Inc.), Andras Lasso (PerkLab), and Steve Pieper (Isomics, Inc.), and was partially funded by NIH grant 3P41RR013218-12S1. Additional contributors include Alvaro Cuervo and Pedro Moreira.
+
+
+## **License**
+
+This module is licensed under the Slicer license, which can be found at:[ https://github.com/Slicer/Slicer/blob/master/LICENSE](https://github.com/Slicer/Slicer/blob/master/LICENSE)
+
+
+## **Contact**
+
+For any questions or issues, please contact Alvaro Cuervo at alcuervosebastian@gmail.com or raise an issue in the project's GitHub repository.
